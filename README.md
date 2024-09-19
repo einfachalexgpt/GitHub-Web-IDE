@@ -6,10 +6,9 @@
 [![Edge Addons](https://img.shields.io/badge/dynamic/json?label=edge%20add-on&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fakjbkjciknacicbnkfjbnlaeednpadcf)][edge_link]
 [![GitHub Release](https://img.shields.io/github/v/release/zvizvi/GitHub-Web-IDE.svg)][release_link]
 
+Diese Erweiterung verbessert GitHub-Repositories, indem sie ein praktisches Dropdown-Menü hinzufügt. Dieses Menü bietet direkte Links zu verschiedenen Online-Plattformen, auf denen Benutzer den Quellcode des Repositories in einer Umgebung anzeigen und interaktiv nutzen können, die an eine IDE erinnert.
 
-This extension enhances GitHub repositories by adding a convenient dropdown menu. This menu offers direct links to various online platforms that allow users to view and interact with the repository's source code in an environment reminiscent of an IDE.
-
-Services currently supported:
+Derzeit unterstützte Dienste:
 
 * [GitHub Dev](https://github.dev/)
 * [VSCode Dev](https://vscode.dev/)
@@ -27,48 +26,47 @@ Services currently supported:
 * [Useful Forks](https://useful-forks.github.io/)
 * [Gitpop2](https://gitpop2.vercel.app/)
 * [DevPod](https://devpod.sh/)
-* Clone in VSCode (locally)
-* Clone in VSCode Insiders (locally)
+* Klonen in VSCode (lokal)
+* Klonen in VSCode Insiders (lokal)
 
-
-### What's changed?
-* v2.0.9 Bug fixes and improvements.
-* v2.0.8 Google IDX link added.
+### Was hat sich geändert?
+* v2.0.9 Fehlerbehebungen und Verbesserungen.
+* v2.0.8 Google IDX-Link hinzugefügt.
 * v2.0.7
-  * Fix extension options page in Firefox.
-  * Add Useful Forks link.
-  * Add JsDelivr link (disabled by default).
-  * Add DevPod (disabled by default).
-* v2.0.6 Style improvements.
-* v2.0.5 GitLab new design compatibility.
+  * Korrektur der Erweiterungsoptionen-Seite in Firefox.
+  * Link zu Useful Forks hinzugefügt.
+  * Link zu JsDelivr hinzugefügt (standardmäßig deaktiviert).
+  * DevPod hinzugefügt (standardmäßig deaktiviert).
+* v2.0.6 Stilverbesserungen.
+* v2.0.5 Kompatibilität mit dem neuen Design von GitLab.
 * v2.0.4
-  * Fix compatibility with the new GitHub design.
-  * Add VSCode Insiders option (Thanks to @JMcrafter26).
-  * Remove the VSCode Remote Repositories option as it no longer works.
-  * Remove the GitHub Memory option as it no longer works.
-  * CodeSandbox and Replit new logos corrected.
-* v2.0.3 Bug fixed.
-* v2.0.2 GitLab1s link added.
-* v2.0.1 Open in VSCode Dev option.
+  * Korrektur der Kompatibilität mit dem neuen GitHub-Design.
+  * Option für VSCode Insiders hinzugefügt (Dank an @JMcrafter26).
+  * Option für VSCode Remote Repositories entfernt, da sie nicht mehr funktioniert.
+  * Option für GitHub Memory entfernt, da sie nicht mehr funktioniert.
+  * Neue Logos für CodeSandbox und Replit korrigiert.
+* v2.0.3 Fehler behoben.
+* v2.0.2 Link zu GitLab1s hinzugefügt.
+* v2.0.1 Option für Öffnen in VSCode Dev.
 * v2.0.0
-  * Extension customizing options page.
-  * ~Open in VSCode Remote Repositories option.~
-  * Active Forks (disabled by default).
-  * Gitpop2 (disabled by default).
-  * ~GitHub Memory (disabled by default).~
-* v1.0.16 Style changes and improvements.
-* v1.0.15 GitHub Dev link added.
-* v1.0.14 Open in VSCode option added (open.vscode.dev).
-* v1.0.13 Bug fixed.
-* v1.0.12 StackBlitz link added (for supported repositories only).
-* v1.0.11 Dark mode support.
-* v1.0.10 Open current selected branch.
-* v1.0.8 GitLab support, Glitch link added.
-* v1.0.7 Sourcegraph link added.
-* v1.0.4 Clone in VSCode option added.
+  * Anpassbare Optionen-Seite der Erweiterung.
+  * ~Option für Öffnen in VSCode Remote Repositories.~
+  * Active Forks (standardmäßig deaktiviert).
+  * Gitpop2 (standardmäßig deaktiviert).
+  * ~GitHub Memory (standardmäßig deaktiviert).~
+* v1.0.16 Stiländerungen und Verbesserungen.
+* v1.0.15 Link zu GitHub Dev hinzugefügt.
+* v1.0.14 Option für Öffnen in VSCode hinzugefügt (open.vscode.dev).
+* v1.0.13 Fehler behoben.
+* v1.0.12 Link zu StackBlitz hinzugefügt (nur für unterstützte Repositories).
+* v1.0.11 Unterstützung für den Dunkelmodus.
+* v1.0.10 Aktuellen ausgewählten Branch öffnen.
+* v1.0.8 Unterstützung für GitLab, Link zu Glitch hinzugefügt.
+* v1.0.7 Link zu Sourcegraph hinzugefügt.
+* v1.0.4 Option für Klonen in VSCode hinzugefügt.
 
 ### ToDo:
-NPM packages file explorer, like
+NPM-Pakete-Dateiexplorer, wie z.B.
 - [ ] unpkg.com
 - [ ] npmjs1s.com
 - [ ] npm-explorer.tk
@@ -78,8 +76,7 @@ NPM packages file explorer, like
 ### GitLab
 ![image](https://user-images.githubusercontent.com/4354421/168898417-45fa3aa5-4505-4f32-9c36-f05fc81f47af.png)
 
-
-### Download
+### Herunterladen
 
 #### Chrome
 https://chromewebstore.google.com/detail/adjiklnjodbiaioggfpbpkhbfcnhgkfe
@@ -88,11 +85,9 @@ https://addons.mozilla.org/firefox/addon/github-web-ide
 #### Edge
 https://microsoftedge.microsoft.com/addons/detail/akjbkjciknacicbnkfjbnlaeednpadcf
 
-
-[![get-chrome-ext][chrome_badge]][chrome_link]
-[![get-firefox-addon][firefox_badge]][firefox_link]
-[![get-edge-addon][edge_badge]][edge_link]
-
+[![Chrome-Erweiterung herunterladen][chrome_badge]][chrome_link]
+[![Firefox-Addon herunterladen][firefox_badge]][firefox_link]
+[![Edge-Addon herunterladen][edge_badge]][edge_link]
 
 [chrome_link]: https://chromewebstore.google.com/detail/adjiklnjodbiaioggfpbpkhbfcnhgkfe
 [chrome_badge]: https://user-images.githubusercontent.com/4354421/107861086-06778c80-6e4c-11eb-8072-f82422193a70.png
